@@ -58,7 +58,7 @@
   "devDependencies": {
     "nodemon": "^2.0.15"
   },
-  "description": "https://code-sync.codersgyan.com/",
+  "description": "",
   "main": "server.js",
   "author": "",
   "license": "ISC"

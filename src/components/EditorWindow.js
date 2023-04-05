@@ -20,9 +20,8 @@ const EditorWindow = ({ onChange, code,isDarkMode}) => {
         return (
                 <div>
                         <Editor
-                        className="Editorwindow"
+                                className="Editorwindow"
                                 value={value}
-                                theme={theme}
                                 height={'80vh'}
                                 width={'100%'}
                                 defaultValue={"//enter some thing"}

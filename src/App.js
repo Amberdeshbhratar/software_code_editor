@@ -48,8 +48,12 @@ function App() {
                         <Route path="/Contactus" element={<Contactus />}></Route>
                         <Route path="/Aboutus" element={<Aboutus />}></Route>
                         <Route path="/" element={<Compiler
-                        // authed={true}
+                        authed={true}
                         />}></Route>
+                        <Route
+                        path="/editor/:roomId"
+                        element={<EditorPage />}
+                        ></Route>
                     </Routes>
                 </BrowserRouter>
             </div>

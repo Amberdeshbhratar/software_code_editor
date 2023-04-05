@@ -13,6 +13,8 @@ const Navbar = ({isDarkMode,setIsDarkMode}) => {
                         document.body.className = 'LightTheme'
                         console.log(document.getElementsByClassName("Editorwindow"))
                         console.log(document.body.className)
+                        var editor = document.getElementsByClassName('Editorwindow')
+                        editor.theme = 'vs-dark';
                 }
                 else{
                         console.log(isDarkMode)
